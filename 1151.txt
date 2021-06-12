@@ -1,0 +1,7 @@
+fir input
+a = 0
+li = [a]
+b= 0
+while:
+    li.append(a + b) 
+    b = b + 1
