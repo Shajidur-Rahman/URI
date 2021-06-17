@@ -1,0 +1,5 @@
+a = int(input())
+b = list(map(int, input().split()))
+bc = min(b)
+b = b.index(bc) 
+print(b + 1)
