@@ -5,7 +5,6 @@ lagartra >>>>>>> Spock == first
 Spock >>>>>> tesoura == first
 tesoura >>>>>>> lagartra ==first
 lagartra >>>>>>> papel == first
-
 papel >>>>>>>>> Spock == first
 Spock >>>>>>>>> pedra == first
 pedra >>>>>> tesoura == first
