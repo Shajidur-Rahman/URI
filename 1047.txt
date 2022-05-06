@@ -1,0 +1,3 @@
+starthour startminute   finishhour  finishminute
+
+if sh == eh => 24
