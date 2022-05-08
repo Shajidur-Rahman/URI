@@ -1,25 +1,10 @@
 import re
- 
-test_string = input()
-
-test_string = test_string.lower() 
-
-res = re.findall(r'\w+', test_string)
-
-res.sort()
-
-final = set()
 
 
-for a in res:
-    final.add(a)
+a = input().split()
 
-res.clear()
+a.sort()
 
-for b in final:
-    res.append(b)
-
-res.sort()
-
-for i in res:
-    print(i)
+for i in range(len(a)):
+    x = re.sub('[^A-Za-z0-9]+', '', a[i])
+    print(x)
